@@ -20,7 +20,7 @@ With this microservice project, tasks can be assigned to users, assigned tasks c
 - Kafka
 - Lombok
 - Data JPA
-- PostgreSQL
+- PostgreSql
 
 
 
