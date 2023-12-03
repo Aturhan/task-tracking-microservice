@@ -7,7 +7,6 @@ With this microservice project, tasks can be assigned to users, assigned tasks c
 - Clone the project's GitHub repository;
 - mvn clean package
 
-```
 
 
 ## Dependencies
