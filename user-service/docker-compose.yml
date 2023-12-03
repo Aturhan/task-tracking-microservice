@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres
+    container_name: user-service
+    environment:
+      POSTGRES_DB: track_task_user_service_db
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+    restart: unless-stopped
+    ports:
+      - "5433:5432"

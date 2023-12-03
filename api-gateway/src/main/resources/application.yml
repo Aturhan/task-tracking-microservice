@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: api-gateway
+
+cloud:
+  gateway:
+    discovery:
+      locator:
+        enabled: true
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+
+server:
+  port: 8888
+
+
+jwt:
+  secret: hz4q6fGjuWKCiLLMS3cOar0z90FiCL1QN4B/HheaM3J2t20uHVzC/BikaUu+bhlwMSwr9S5kaBDS3nbA0LASxawbe8OvH57Qi2P6LwENYGjdaE7BgLFIJOEQRBqTojgEWVi30MtQ092BQ8ucJyd+sfAuBaynFN+cwCL0dyfvGzM=

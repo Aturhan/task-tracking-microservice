@@ -1,0 +1,43 @@
+
+spring:
+  application:
+    name: notification-service
+
+
+# Mail Configuration
+  mail:
+   host: smtp.gmail.com
+   port: 587
+   username: aturhanbrave@gmail.com
+   password: ekrjbyglfzsycahe
+   properties:
+    mail:
+      smtp:
+        auth:
+        starttls:
+          enable: true
+
+
+kafka:
+  host: localhost:9092
+  topics:
+    task-created:
+      topicName1: create_assign_task
+    task-completed:
+      topicName2: task_completed
+    consumerGroup: task_management
+
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
+server:
+  port: 0
+
+
+
+
+

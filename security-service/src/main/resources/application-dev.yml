@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: SECURITY-SERVICE
+
+jwt:
+  secret: hz4q6fGjuWKCiLLMS3cOar0z90FiCL1QN4B/HheaM3J2t20uHVzC/BikaUu+bhlwMSwr9S5kaBDS3nbA0LASxawbe8OvH57Qi2P6LwENYGjdaE7BgLFIJOEQRBqTojgEWVi30MtQ092BQ8ucJyd+sfAuBaynFN+cwCL0dyfvGzM=
+
+
+
+
+server:
+  port: 8083
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
+
